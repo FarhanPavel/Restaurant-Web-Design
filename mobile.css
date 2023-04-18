@@ -1,0 +1,201 @@
+.col-m-1 {width: 8.33%;}
+.col-m-2 {width: 16.66%;}
+.col-m-3{width: 25%;}
+.col-m-4 {width: 33.33%;}
+.col-m-5{width: 41.66%;}
+.col-m-6 {width: 50%;}
+.col-m-7 {width: 58.33%;}
+.col-m-8 {width: 66.66%;}
+.col-m-9{width: 75%;}
+.col-m-10 {width: 83.33%;}
+.col-m-11 {width: 91.66%;}
+.col-m-12 {width: 100%;}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.all{
+    background-color: #24A19C;
+    
+}
+.head-title{
+    display: flex;
+    justify-content: center;
+}
+.head-title img{
+    width: 80px;
+    height: 80px;
+    margin-left: -5px;
+    background-color: white;
+    margin-top: 20px;
+}
+.head-body{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.head-body ul{
+
+list-style-type: none;
+}
+.head-body ul li{
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.head-body a{
+    text-decoration: none;
+    color: white; 
+}
+.head-body a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top:20px;
+    padding-bottom: 20px;
+     padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+}
+.back-img{
+    display: flex;
+    justify-content: center;
+    background-image: url(./images/banner-image.jpg);
+    background-size: cover;
+    max-width: 100%;
+    padding-top: 20%;
+    padding-bottom: 10%;
+    display: block;
+    text-align: center;
+}
+.back-img h1{
+    font-family: 'Handlee', cursive;;
+    margin-top: 100px;
+    font-size: 50px;
+    background-color: yellow;
+}
+.back-img h2{
+    margin-top: 20px;
+    background-color: greenyellow;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+.back-img button{
+    margin-top: 20px;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: greenyellow;
+    border: none;
+    font-size: 20px;
+}
+.back-img button:hover{
+    transform:scale(1.2);
+}
+.back-about {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.back-about h1{
+    font-size: 30px;
+    padding: 20px;
+}
+.back-about p{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 13px;
+}
+
+.card-1{
+    text-align: center;
+    padding: 20px;
+}
+.card-1 img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    background-size: cover;
+}
+.card-1 h1{
+  
+    font-size: 20px;
+    color: white;
+    background-color: green;
+    padding: 20px;
+    margin-top: -5px;
+}
+.card-1 #one h2{
+  
+    font-size: 15px;
+    color: black;
+    background-color: gray;
+    margin-top: -10px;
+}
+.card-1 #two h2{
+  
+    font-size: 15px;
+    color: black;
+    background-color: gray;
+    margin-top: -10px;
+    border: none;
+}
+.card-1 #three h2{
+
+    font-size: 15px;
+    color: black;
+    background-color: gray;
+    padding: 10px;
+    border: none;
+    margin-top: -10px;
+}
+.card-1 h2{
+    padding: 10px;
+}
+
+.card-1:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+
+.mapping{
+    background-color: #595B83;
+    text-align: center;
+    color: white;
+   
+}
+.mapping iframe{
+ 
+    max-width: 100%;
+    width: 400px;
+    height: 200px;
+   
+    margin-top: 20px;
+}
+.mapping h1{
+    font-size: 20px;
+    margin-top:20px;
+}
+.mapping h2{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.mapping span{
+    font-size: 12px;
+    display: block;
+}
+.mapping #spacing {
+    padding-bottom: 20px;
+}
+.end-pannel{
+    background-color: #060930;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
